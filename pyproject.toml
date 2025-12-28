@@ -1,0 +1,16 @@
+[project]
+name = "espn-ff-streamlit"
+version = "0.0.1"
+description = "A Streamlit app for ESPN Fantasy Football leagues."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "espn-api>=0.45.1",
+    "streamlit>=1.52.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0.0",
+]
