@@ -10,27 +10,27 @@ TODO: Docker, env vars, etc.
 
 ### Setup with uv
 
-1. **Install uv**:
+1. Install uv
    ```bash
    curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
-2. **Create virtual environment**:
+2. Create virtual environment
    ```bash
    uv venv
    ```
 
-3. **Activate virtual environment**:
+3. Activate virtual environment
    ```bash
    source .venv/bin/activate
    ```
 
-4. **Install dependencies**:
+4. Install dependencies
    ```bash
    uv pip install -e .
    ```
 
-5. **Install development dependencies** (optional):
+5. Install development dependencies (optional)
    ```bash
    uv pip install -e ".[dev]"
    ```
